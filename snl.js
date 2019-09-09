@@ -12,10 +12,7 @@ function inputuser() {
         document.getElementById('score2').innerHTML= person2+"'s Score:";
       }
 }
-// function addmusic(){
-//     var music= new Audio("C:\\Users\\hima\\Documents\\Snakes_N_Ladders\\Bossa-nova-beat-music-loop.mp3");
-//     music.play();
-// }
+
 
 function add_images(){
     //addmusic();
@@ -23,17 +20,17 @@ function add_images(){
     for(i=1;i<=9;i++){
        
        var tile = document.createElement('img');
-       tile.src = "C:\\Users\\hima\\Documents\\Snakes_N_Ladders\\snake-lader-java-player1-master\\images\\tiles\\image_part_00"+i+".jpg";
+       tile.src = "tiles\\image_part_00"+i+".jpg";
        document.getElementById('container').appendChild(tile);
      } 
      for(i=10;i<=99;i++){
        
         var tile = document.createElement('img');
-        tile.src = "C:\\Users\\hima\\Documents\\Snakes_N_Ladders\\snake-lader-java-player1-master\\images\\tiles\\image_part_0"+i+".jpg";
+        tile.src = "tiles\\image_part_0"+i+".jpg";
         document.getElementById('container').appendChild(tile);
       } 
       var tile = document.createElement('img');
-        tile.src = "C:\\Users\\hima\\Documents\\Snakes_N_Ladders\\snake-lader-java-player1-master\\images\\tiles\\image_part_100.jpg";
+        tile.src = "tiles\\image_part_100.jpg";
         document.getElementById('container').appendChild(tile);
   }
 // function generatenum(){
@@ -100,7 +97,7 @@ function play(){
         sign=sign2;
         turn = 1;
     } 
-    dice.src="C:\\Users\\hima\\Documents\\Snakes_N_Ladders\\snake-lader-java-player1-master\\images\\"+x+".jpg";
+    dice.src=x+".jpg";
     
         if((score+x)<=100){
             var j;
