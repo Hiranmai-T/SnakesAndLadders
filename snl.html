@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="snl.css">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snakes And Ladders</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="snl.js"></script>
+    <!-- <embed loop="true" src="C:\Users\hima\Documents\Snakes_N_Ladders\Bossa-nova-beat-music-loop.wav" hidden="false" type="video/quicktime"></embed> -->
+    <!-- <script>
+        var music= new Audio("C:\\Users\\hima\\Documents\\Snakes_N_Ladders\\Bossa-nova-beat-music-loop.wav");
+        music.play();
+    </script> -->
+</head>
+<body>
+    
+    <div id='user'>
+        <h1 id='user1'>Player1</h1>
+        <h1 id='user2'>Player2</h1>
+        <h1 id='score1'>Player1 Score:</h1>
+        <h1 id='score2'>Player2 Score:</h1>
+        <script>
+            inputuser();
+            
+        </script>
+    </div>
+    <div id='border_container'>
+        <div id='container'>        </div>
+        <script>
+            add_images();
+        </script>
+    </div>
+    <div id='dice_change'>
+        <img id='dice' src = "C:\Users\hima\Documents\Snakes_N_Ladders\snake-lader-java-player1-master\images\dicef.png"
+          width="150" height="150">
+        <button id='roll' onclick="play()" >Roll Me!</button>
+    </div>
+    <div id='players'>
+        <img id ='player1' src="C:\Users\hima\Documents\Snakes_N_Ladders\snake-lader-java-player1-master\images\white.jpg"
+           width="35" height="40">
+        <img id = 'player2' src="C:\Users\hima\Documents\Snakes_N_Ladders\snake-lader-java-player1-master\images\black.jpg"
+           width="35" height="40">
+        <h2 id='score1num'>1</h2>
+        <h2 id='score2num'>1</h2>
+        <h2 id='winner'></h2>
+    </div>
+    <embed name="GoodEnough" src="C:\Users\hima\Documents\Snakes_N_Ladders\Bossa-nova-beat-music-loop.mp3" loop="false" hidden="true" autostart="true">  
+
+    
+</body>
+
+</html>

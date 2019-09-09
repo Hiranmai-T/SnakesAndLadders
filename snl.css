@@ -1,0 +1,78 @@
+#container {
+    
+    display: grid;
+    grid-template-columns:  6% 6% 6% 6% 6% 6% 6% 6% 6% 6%;
+    grid-column-gap: 0px;
+
+    
+  }
+#border_container{
+    
+     margin: 10px 100px 10px 10px;
+}
+#dice{
+    position: absolute;
+    top:10px;
+    left:850px;
+    margin: 10px 10px 10px 10px;
+}
+#roll{
+    border-radius: 25px;
+    position: absolute;
+    top: 180px;
+    left:890px;
+    font-size: 20px;
+    padding:10px 10px;
+    background-color:whitesmoke; 
+    color: black;
+}
+#player1{
+    position: absolute;
+    top: 720px;
+    left: 38px;
+    z-index: 1;
+}
+#player2{
+    position: absolute;
+    top: 720px;
+    left: 33px;
+    z-index: 1;
+}
+#user1{
+    position: absolute;
+    top: 40px;
+    left: 1050px;
+}
+#user2{
+    position: absolute;
+    top: 80px;
+    left: 1050px;
+}
+#score1{
+    position: absolute;
+    top : 300px;
+    left: 890px;
+}
+#score2{
+    position: absolute;
+    top: 420px;
+    left: 890px;
+}
+#score1num{
+    position: absolute;
+    top : 360px;
+    left: 900px;
+    color:gray;
+}
+#score2num{
+    position: absolute;
+    top : 480px;
+    left: 900px;
+    color:gray;
+}
+#winner{
+    position: absolute;
+    top:550px;
+    left:890px;
+    color:gray;
+}
